@@ -1,0 +1,55 @@
+/* for planshet */
+@media screen and (max-width:990px) {
+    nav {
+        padding: 0 40px;
+    }
+    .banner {
+        font-size: 26px;
+    }
+
+    .card {
+        width: 50%;
+    }
+    .two_items {
+        flex-direction: column-reverse;
+    }
+    .itemtxt,
+    .item_img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .grid_con {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+/* for mobile */
+@media screen and (max-width:600px) {
+    nav {
+        padding: 0 3%;
+    }
+    .menu {
+        display: block;
+    }
+    .nav_collect {
+        display: none;
+    }
+    .banner {
+        background: url(./12.jpg) no-repeat center/cover;
+    }
+    .banner h1 {
+        display: none;
+    }
+    .card_con {
+        width: 94%;
+    }
+    .card {
+        width: 100%;
+    }
+
+    .grid_con {
+        grid-template-columns: 1fr;
+    }
+    
+}
